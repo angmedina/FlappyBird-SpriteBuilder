@@ -14,8 +14,8 @@
 -(void)update:(CCTime)delta
 {
     // put update code here
-    character = (Character*)[CCBReader load:@"Character"];
-    [physicsNode addChild:character];
+   // character = (Character*)[CCBReader load:@"Character"];
+   // [physicsNode addChild:character];
     // this will be run every frame.
     // delta is the time that has elapsed since the last time it was run. This is usually 1/60, but can be bigger if the game slows down
     // Increment the time since the last obstacle was added
